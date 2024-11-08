@@ -1,0 +1,10 @@
+.video_container {
+    text-align: center
+    margin-top: 20px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10 px 5px;
+    font-size: 16px;
+}
