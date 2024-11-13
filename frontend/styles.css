@@ -1,6 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+}
+
 .video_container {
-    text-align: center
-    margin; color: black;
+    text-align: center;
+    margin-left: auto;
 }
 
 .controls button {
