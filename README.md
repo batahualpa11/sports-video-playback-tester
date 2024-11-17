@@ -41,13 +41,13 @@ Add a screenshot or gif showing the interface and video controls.
    If your version is < 18.0, proceed to step #2! If your version is >18.0 then skip part #2 and procced to #3!
 
 2. **Install NVM (Optional)**:
-   '''bash
+   ```bash
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
-   '''bash
+   ```bash
    nvm -v
 
-   '''bash
+   ```bash
    nvm install latest
 
 
