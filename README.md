@@ -38,7 +38,7 @@ Add a screenshot or gif showing the interface and video controls.
    ```bash
    node -v
 
-   If your version is < 18.0, proceed to step #2! If your version is >18.0 then skip part #2 and procced to #3!
+**If your version is < 18.0, proceed to step number 2! If your version is >18.0 then skip part number 2 and procced to number 3!**
 
 2. **Install NVM (Optional)**:
    ```bash
