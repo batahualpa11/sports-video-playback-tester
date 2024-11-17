@@ -35,7 +35,7 @@ Add a screenshot or gif showing the interface and video controls.
 
 ### Steps
 1. **Check what version of Node.js is installed**
-   '''bash
+   ```bash
    node -v
 
    If your version is < 18.0, proceed to step #2! If your version is >18.0 then skip part #2 and procced to #3!
