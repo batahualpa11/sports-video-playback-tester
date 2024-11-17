@@ -47,21 +47,23 @@ Add a screenshot or gif showing the interface and video controls.
    nvm -v  ##confirms that it has installed correctly
    nvm install latest
 
-
 3. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/sports-video-playback-tester.git
 
-   
 4. **Navigate to the project**   
+   ```bash
    cd sports-video-playback-tester
 
 5. **Navigate to the backend of the project**
+   ```bash
    cd backend
 
 6. **Install Backend Dependencies**
+   ```bash
    npm install
 
 7. **Run the Backend Server**
+   ```bash
    node server.js
 
