@@ -34,7 +34,37 @@ Add a screenshot or gif showing the interface and video controls.
 - Git (to clone the repository)
 
 ### Steps
-1. **Clone the repository**:
+1. **Check what version of Node.js is installed**
+   '''bash
+   node -v
+
+   If your version is < 18.0, proceed to step #2! If your version is >18.0 then skip part #2 and procced to #3!
+
+2. **Install NVM (Optional)**:
+   '''bash
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+   '''bash
+   nvm -v
+
+   '''bash
+   nvm install latest
+
+
+3. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/sports-video-playback-tester.git
+
+   
+4. **Navigate to the project**   
    cd sports-video-playback-tester
+
+5. **Navigate to the backend of the project**
+   cd backend
+
+6. **Install Backend Dependencies**
+   npm install
+
+7. **Run the Backend Server**
+   node server.js
+
