@@ -44,7 +44,7 @@ Add a screenshot or gif showing the interface and video controls.
 2. **Install NVM (Optional)**:
    ```bash
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-   nvm -v
+   nvm -v  ##confirms that it has installed correctly
    nvm install latest
 
 
