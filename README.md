@@ -39,16 +39,12 @@ Add a screenshot or gif showing the interface and video controls.
    node -v
 
 - If your version is < 18.0, proceed to step 2! 
-- If your version is >18.0 then skip part 2 and procced to number 3!
+- If your version is >18.0 then skip part 2 and proceed to number 3!
 
 2. **Install NVM (Optional)**:
    ```bash
    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
-
-   ```bash
    nvm -v
-
-   ```bash
    nvm install latest
 
 
