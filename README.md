@@ -67,3 +67,31 @@ Add a screenshot or gif showing the interface and video controls.
    ```bash
    node server.js
 
+8. **Copy and paste this into you search bar**
+   ```bash
+   http://localhost:3000/api/video
+
+## Usage
+
+1. **Video Controls**
+
+- Click "Play/Pause" to control video playback.
+- Use "Skip Forward" and "Skip Backward" to jump 15 seconds in either direction.
+- Click "Replay Last 10" to rewind 10 seconds.
+
+2. **API Access**
+
+- The mock API provides metadata for testing purposes. 
+- You can access it at http://localhost:3000/api/video
+
+## Testing
+
+### UI Testing with Cypress
+
+1. **Installing Cypress**
+   ```bash
+   npm install cypress --save-dev
+
+2. **Run Cypress Tests**
+   ```bash
+   npx cypress open
